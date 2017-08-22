@@ -1,0 +1,20 @@
+{
+  "name": "adebray-turing",
+  "description": "A simple loader",
+  "main": "adebray-turing.html",
+  "authors": [
+    "adebray"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Zleub/adebray-turing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.0.2"
+  }
+}
