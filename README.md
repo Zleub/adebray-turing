@@ -1,5 +1,13 @@
 # adebray-turing
 
+A turing loader
+
+## Installation
+
+bower install --save Zleub/adebray-turing
+
+## Usage
+
 <!---
 ```
 <custom-element-demo>
