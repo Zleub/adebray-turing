@@ -1,5 +1,7 @@
 # adebray-turing
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Zleub/adebray-turing)
+
 <!---
 ```
 <custom-element-demo>
