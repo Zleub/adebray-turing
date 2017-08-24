@@ -16,6 +16,7 @@ A turing loader
   <template>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="../polymer/polymer.html">
+    <link rel="import" href="../iron-ajax/iron-ajax.html">
     <link rel="import" href="adebray-turing.html">
     <next-code-block></next-code-block>
   </template>
@@ -23,7 +24,7 @@ A turing loader
 ```
 -->
 ```html
-<adebray-turing></adebray-turing>
+<adebray-turing>...</adebray-turing>
 ```
 
 ### Styling
