@@ -1,5 +1,3 @@
-<link rel=import href=../bower_components/iron-ajax/iron-ajax.html>
-
 <dom-module id="adebray-turing">
 	<template>
 		<style>
@@ -20,14 +18,13 @@
 			}
 		</style>
 
-		<!-- url="https://raw.githubusercontent.com/Ngoguey42/ft_turing/master/machines/palindrome.json" -->
 		<iron-ajax
 			auto
 			url="{{url}}"
 			handle-as="json"
 			on-response="_handleResponse"
 		>
-	  </iron-ajax>
+		</iron-ajax>
 
 
 		<div class=tape>

@@ -24,7 +24,7 @@ A turing loader
 ```
 -->
 ```html
-<adebray-turing>...</adebray-turing>
+<adebray-turing></adebray-turing>
 ```
 
 ### Styling
