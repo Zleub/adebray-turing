@@ -1,4 +1,4 @@
-# adebray-turing
+# <adebray-turing>
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Zleub/adebray-turing)
 
@@ -6,7 +6,7 @@ A turing loader
 
 ## Installation
 
-bower install --save Zleub/adebray-turing
+`bower install --save Zleub/adebray-turing`
 
 ## Usage
 
@@ -25,3 +25,11 @@ bower install --save Zleub/adebray-turing
 ```html
 <adebray-turing></adebray-turing>
 ```
+
+### Styling
+
+Custom property               | Description                    | Default
+------------------------------|--------------------------------|----------
+`----turing-background-color` | Background color of the ripple | `white`
+`--turing-text-color`         | Mixin applied to the button    | `black`
+`--turing-cursor`             | Mixin applied to the button    | `{}`
