@@ -23,7 +23,7 @@
 		<!-- url="https://raw.githubusercontent.com/Ngoguey42/ft_turing/master/machines/palindrome.json" -->
 		<iron-ajax
 			auto
-			url="machines/loading.json"
+			url="{{url}}"
 			handle-as="json"
 			on-response="_handleResponse"
 		>
@@ -79,7 +79,16 @@
 			 *   }
 			 * }}
 			 */
-			machine: Object
+			machine: Object,
+			/**
+			 * The url of a distant json describing a turing machine.
+			 *
+			 * @type {String}
+			 */
+			url: {
+				type: String,
+				value: '../machines/loading.json'
+			}
 		},
 
 		_isCursor: function (index, i) {
